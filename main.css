@@ -246,8 +246,8 @@ header img.clock {
 
 /*------------------ main section ---------------------*/
 
-main section .container {
-    width: 60%;
+main section.description .container {
+    width: 40%;
 }
 
 .description {
@@ -255,7 +255,8 @@ main section .container {
 }
 
 h1.description-header {
-font-family: 'Gotham-medium', sans-serif;    font-size: 2em;
+    font-family: 'Gotham-medium', sans-serif;
+    font-size: 2em;
     color: #359ee1;
     padding-top: 30px;
 }
@@ -297,13 +298,40 @@ p.description-footer {
 
 /*----------------------- offer section ------------------------*/
 
-section.offer-cards {
+.price-table h1 {
+    font-family: 'Gotham-medium', sans-serif;
+    font-size: 2em;
+    text-align: center;
     color: #359ee1;
-    margin-top: 25px;
-    width: 60%;
+    padding-bottom: 25px;
 }
 
+.price-table {
+    padding: 25px 0;
+}
 
+.single-price {
+/*
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #efefef;
+    transition: 0.5s;
+*/
+}
 
+.single-price:hover {
+    box-shadow: 0 2px 20px #ccc;
+}
 
-
+.price-head {
+/*
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 10px 5px;
+*/
+}
