@@ -173,9 +173,15 @@ h1 {
 }
 
 header {
-    height: 500px;
-    background-image: url(images/header-bg-img.png);
+    height: 600px;
+    width: 100%;
+    background: url("images/header-bg-img.jpg") no-repeat;
+    background-size: cover; 
+
+    
 }
+
+
 
 a.logo img {
     margin-top: 40px;
@@ -297,8 +303,12 @@ p.description-footer {
 
 
 /*----------------------- offer section ------------------------*/
+.container .row {
+    width: 60%;
+    margin: 0 auto;
+}
 
-.price-table h1 {
+.offer-table h1 {
     font-family: 'Gotham-medium', sans-serif;
     font-size: 2em;
     text-align: center;
@@ -306,32 +316,60 @@ p.description-footer {
     padding-bottom: 25px;
 }
 
-.price-table {
+.offer-table {
     padding: 25px 0;
 }
 
-.single-price {
-/*
+.single-offer {
+
     margin: 10px auto;
     display: inline;
     float: left;
     width: 100%;
-    background-color: #efefef;
+    background-color: #359ee1;
     transition: 0.5s;
-*/
+
 }
 
-.single-price:hover {
+.single-offer:hover {
     box-shadow: 0 2px 20px #ccc;
 }
 
-.price-head {
-/*
-    background-color: #2196f3;
+.offer-head {
+    color: #fff;
     display: inline;
     float: left;
     text-align: center;
     width: 100%;
     padding: 10px 5px;
-*/
+
 }
+.offer-head h2 {
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.fas {
+    font-size: 1.5em;
+    padding-right: 10px;
+}
+
+.offer-head p {
+    margin-top: 10px;
+    color: #359ee1;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    position: relative;
+}
+
+.offer-head p sup {
+    font-size: .4em;
+    position: absolute;
+    top: 5px;
+}
+
+
+
+
+
