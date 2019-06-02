@@ -1,0 +1,309 @@
+/*
+main color : #359EE1
+
+*/
+
+
+@font-face {
+    font-family: Gotham-medium;
+    src: url("fonts/GothamMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: myriadPro-regular;
+    src: url("fonts/MyriadPro-Regular.otf");
+}
+
+@font-face {
+    font-family: lato-regular;
+    src: url("fonts/Lato-Regular.ttf") format("truetype");
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*-------- main content style -----------*/
+
+body {
+    position: relative;
+
+}
+
+body p {
+    font-family: myriadPro-regular;
+}
+
+h1 {
+    font-family: 'Gotham-medium', sans-serif;
+    font-size: 2em;
+}
+
+header {
+    height: 500px;
+    background-image: url(images/header-bg-img.png);
+}
+
+a.logo img {
+    margin-top: 40px;
+}
+
+a.mobile {
+    display: inline-block;
+    float: right;
+    color: white;
+    background-color: #359EE1;
+    margin-top: 40px;
+    padding: 5px 8px 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a.mobile:hover {
+    text-decoration: none;
+    background-color: #3DB3F4;
+}
+
+a.mobile i {
+    padding-right: 10px;
+}
+
+header h1 {
+    font-family: 'Gotham-medium', sans-serif;
+    color: #359EE1;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+header h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-family: myriadPro-regular;
+    font-size: 1.5em;
+}
+
+
+header img.clock {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clock-container {
+    margin-top: 20px;
+}
+
+.mobile-2nd {
+    margin-top: 20px;
+}
+
+.mobile-2nd img {
+    height: 48px;
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*------------------ main section ---------------------*/
+
+main section .container {
+    width: 60%;
+}
+
+.description {
+    background-color: #ededed;
+}
+
+h1.description-header {
+font-family: 'Gotham-medium', sans-serif;    font-size: 2em;
+    color: #359ee1;
+    padding-top: 30px;
+}
+
+p.description-details {
+    font-family: myriadPro-regular;
+    text-align: justify;
+    color: #359ee1;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+main ul {
+    font-family: myriadPro-regular;
+    color: #359ee1;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 40px;
+    list-style: disc;
+    line-height: 1.5em;
+    display: inherit;
+}
+
+p.description-footer {
+    text-align: justify;
+    font-style: italic;
+    font-size: .8em;
+    line-height: 1.5em;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    color: #3db3f4;
+}
+
+
+/*----------------------- offer section ------------------------*/
+
+section.offer-cards {
+    color: #359ee1;
+    margin-top: 25px;
+    width: 60%;
+}
+
+
+
+
+
