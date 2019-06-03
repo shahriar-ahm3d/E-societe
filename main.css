@@ -173,12 +173,10 @@ h1 {
 }
 
 header {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url("images/header-bg-img.jpg") no-repeat;
-    background-size: cover; 
-
-    
+    background-size: cover;
 }
 
 
@@ -213,7 +211,7 @@ header h1 {
     color: #359EE1;
     font-size: 2em;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 120px;
 }
 
 header h2 {
@@ -238,7 +236,7 @@ header img.clock {
 }
 
 .mobile-2nd {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .mobile-2nd img {
@@ -248,12 +246,21 @@ header img.clock {
     margin-left: auto;
     margin-right: auto;
 }
-
-
+.nav-arrow {
+    text-align-last: center;
+    margin-top: 120px;
+}
+.nav-arrow i {
+    font-size: 3em;
+    color: #359ee1;
+    transition: all .5s ease;
+    
+}
 /*------------------ main section ---------------------*/
 
 main section.description .container {
     width: 40%;
+/*    transition: all .5s ease;*/
 }
 
 .description {
@@ -304,7 +311,7 @@ p.description-footer {
 
 /*----------------------- offer section ------------------------*/
 .container .row {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -321,18 +328,21 @@ p.description-footer {
 }
 
 .single-offer {
-
     margin: 10px auto;
     display: inline;
     float: left;
     width: 100%;
     background-color: #359ee1;
     transition: 0.5s;
-
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 
+
+
 .single-offer:hover {
-    box-shadow: 0 2px 20px #ccc;
+    box-shadow: 0 2px 20px #9b9a9a;
 }
 
 .offer-head {
@@ -344,20 +354,32 @@ p.description-footer {
     padding: 10px 5px;
 
 }
-.offer-head h2 {
+
+.single-offer .offer-head h2 {
     padding: 10px 20px;
     text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    font-family: 'myriadPro-regular', sans-serif;
+    font-size: 1.2em;
 }
+
+
 .fas {
     font-size: 1.5em;
     padding-right: 10px;
 }
 
 .offer-head p {
+    width: 150px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'myriadPro-regular', sans-serif;
     color: #359ee1;
     background-color: #fff;
     padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
     font-size: 1.5em;
     position: relative;
@@ -367,9 +389,54 @@ p.description-footer {
     font-size: .4em;
     position: absolute;
     top: 5px;
+    font-family: 'myriadPro-regular', sans-serif;
 }
 
+.offer-content ul li {
+    width: 80%;
+    color: #fff;
+    list-style: none;
+    font-family: 'lato-regular', sans-serif;
+    font-size: .8em;
+    line-height: 3em;
+    border-bottom: .5px solid #bfbbbb;
+}
 
+.offer-content ul li:last-child {
+    padding-bottom: 10px;
+    border-bottom: 0;
+}
 
+/*------------------------- card button --------------*/
+.button {
+    margin: 0 auto;
+}
 
+.offer-table .row .button h2 {
+    color: #fff;
+    background-color: #359ee1;
+    padding: 20px 40px;
+    display: inline;
+    margin-top: 60px;
+    font-family: 'Gotham-medium', sans-serif;
+    font-size: 1.5em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    transition: .2s;
+}
 
+.offer-table .row .button h2:hover {
+    background-color: #3db3f4;
+}
+
+.offer-table .row h2.first-button {
+    float: left;
+    margin-right: 200px;
+}
+
+.offer-table .row h2.last-button {
+    float: right;
+    margin-right: 0;
+
+}
