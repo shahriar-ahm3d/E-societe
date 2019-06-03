@@ -170,6 +170,14 @@ body p {
 h1 {
     font-family: 'Gotham-medium', sans-serif;
     font-size: 2em;
+    text-align: center;
+    color: #359ee1;
+}
+
+h2 {
+    padding: 10px 20px;
+    font-family: 'myriadPro-regular', sans-serif;
+    font-size: 1.2em;
 }
 
 header {
@@ -249,7 +257,7 @@ header img.clock {
 
 .nav-arrow {
     text-align-last: center;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .nav-arrow i {
@@ -415,7 +423,8 @@ p.description-footer {
     margin: 0 auto;
 }
 
-.offer-table .row .button h2 {
+.offer-table .row .button h2,
+.our-services .row .button h2 {
     color: #fff;
     background-color: #359ee1;
     padding: 20px 40px;
@@ -429,34 +438,79 @@ p.description-footer {
     transition: .2s;
 }
 
-.offer-table .row .button h2:hover {
+.offer-table .row .button h2:hover,
+.our-services .row .button h2:hover {
     background-color: #3db3f4;
 }
 
-.offer-table .row h2.first-button {
+.offer-table .row h2.first-button,
+.our-services .row h2.first-button {
     float: left;
     margin-right: 200px;
 }
 
-.offer-table .row h2.last-button {
+.offer-table .row h2.last-button,
+.our-services .row h2.last-button {
     float: right;
     margin-right: 0;
 }
 
 /*---- our services section -------------------------------*/
-.our-services{
-    background-color: #BBBBBB;
-}
-.our-services .service-header {
-    display: block;
-    padding: 25px;
+
+.our-services {
+    background: #343333;
 }
 
-.our-services .service-header h1 {
-    text-align: center;
+.service-header {
+    background-color: #dbdbdb;
+}
+
+.service-header h1 {
+    padding: 25px 30px;
+}
+
+.our-services .row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.our-services img {
+    height: 86px;
+    width: 86px;
+}
+
+.our-services .row .col-md-4 h2 {
+    padding-left: 0;
+}
+
+.our-services .row h2 {
+    text-align: left;
     color: #fff;
-    font-family: 'Gotham-medium', sans-serif;
-    font-size: 2em;
+    font-family: 'myriadPro-regular', sans-serif;
+}
+
+.our-services .row p {
+    color: #f2f2f2;
+    font-family: 'lato-regular', sans-serif;
+    font-size: .8em;
+    line-height: 2em;
 }
 
 
+/*----------- Creating an LLC section  ------*/
+
+.creating-llc h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.creating-llc .row {
+    padding-top: 25px;
+}
+
+.creating-llc .row .right-arrow {
+    font-size: 3em;
+    position: relative;
+    top: 55px;
+    left: 60px;
+}
