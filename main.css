@@ -5,18 +5,18 @@ main color : #359EE1
 
 
 @font-face {
-    font-family: Gotham-medium;
-    src: url("fonts/GothamMedium.ttf") format("truetype");
+	font-family: Gotham-medium;
+	src: url("fonts/GothamMedium.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: myriadPro-regular;
-    src: url("fonts/MyriadPro-Regular.otf");
+	font-family: myriadPro-regular;
+	src: url("fonts/MyriadPro-Regular.otf");
 }
 
 @font-face {
-    font-family: lato-regular;
-    src: url("fonts/Lato-Regular.ttf") format("truetype");
+	font-family: lato-regular;
+	src: url("fonts/Lato-Regular.ttf") format("truetype");
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -105,12 +105,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -125,415 +125,463 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+	display: block;
 }
 
 body {
-    line-height: 1;
+	line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+	quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 
 /*-------- main content style -----------*/
 
 body {
-    position: relative;
+	position: relative;
 
 }
 
 body p {
-    font-family: myriadPro-regular;
+	font-family: myriadPro-regular;
 }
 
 h1 {
-    font-family: 'Gotham-medium', sans-serif;
-    font-size: 2em;
-    text-align: center;
-    color: #359ee1;
+	font-family: 'Gotham-medium', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: #359ee1;
 }
 
 h2 {
-    padding: 10px 20px;
-    font-family: 'myriadPro-regular', sans-serif;
-    font-size: 1.2em;
+	padding: 10px 20px;
+	font-family: 'myriadPro-regular', sans-serif;
+	font-size: 1.2em;
 }
 
 header {
-    height: 800px;
-    width: 100%;
-    background: url("images/header-bg-img.jpg") no-repeat;
-    background-size: cover;
+	height: 800px;
+	width: 100%;
+	background: url("images/header-bg-img.jpg") no-repeat;
+	background-size: cover;
 }
 
 
 
 a.logo img {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 a.mobile {
-    display: inline-block;
-    float: right;
-    color: white;
-    background-color: #359EE1;
-    margin-top: 40px;
-    padding: 5px 8px 5px 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+	display: inline-block;
+	float: right;
+	color: white;
+	background-color: #359EE1;
+	margin-top: 40px;
+	padding: 5px 8px 5px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 a.mobile:hover {
-    text-decoration: none;
-    background-color: #3DB3F4;
+	text-decoration: none;
+	background-color: #3DB3F4;
 }
 
 a.mobile i {
-    padding-right: 10px;
+	padding-right: 10px;
 }
 
 header h1 {
-    font-family: 'Gotham-medium', sans-serif;
-    color: #359EE1;
-    font-size: 2em;
-    text-align: center;
-    margin-top: 120px;
+	font-family: 'Gotham-medium', sans-serif;
+	color: #359EE1;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 120px;
 }
 
 header h2 {
-    color: #fff;
-    text-align: center;
-    margin-top: 20px;
-    font-family: myriadPro-regular;
-    font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	font-family: myriadPro-regular;
+	font-size: 1.5em;
 }
 
 
 header img.clock {
-    height: 60px;
-    width: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	height: 60px;
+	width: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .clock-container {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .mobile-2nd {
-    margin-top: 0px;
+	margin-top: 0px;
 }
 
 .mobile-2nd img {
-    height: 48px;
-    width: 140px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	height: 48px;
+	width: 140px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .nav-arrow {
-    text-align-last: center;
-    margin-top: 80px;
+	text-align-last: center;
+	margin-top: 80px;
 }
 
 .nav-arrow i {
-    font-size: 3em;
-    color: #359ee1;
-    transition: all .5s ease;
+	font-size: 3em;
+	color: #359ee1;
+	transition: all .5s ease;
 
 }
 
 /*------------------ main section ---------------------*/
 
 main section.description .container {
-    width: 40%;
-    scroll-behavior: smooth;
+	width: 40%;
+	scroll-behavior: smooth;
 }
 
 .description {
-    background-color: #ededed;
+	background-color: #ededed;
 }
 
 h1.description-header {
-    font-family: 'Gotham-medium', sans-serif;
-    font-size: 2em;
-    color: #359ee1;
-    padding-top: 30px;
+	font-family: 'Gotham-medium', sans-serif;
+	font-size: 2em;
+	color: #359ee1;
+	padding-top: 30px;
 }
 
 p.description-details {
-    font-family: myriadPro-regular;
-    text-align: justify;
-    color: #359ee1;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-top: 20px;
+	font-family: myriadPro-regular;
+	text-align: justify;
+	color: #359ee1;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-top: 20px;
 }
 
 strong {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 main ul {
-    font-family: myriadPro-regular;
-    color: #359ee1;
-    font-weight: normal;
-    margin-top: 20px;
-    margin-left: 40px;
-    list-style: disc;
-    line-height: 1.5em;
-    display: inherit;
+	font-family: myriadPro-regular;
+	color: #359ee1;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-left: 40px;
+	list-style: disc;
+	line-height: 1.5em;
+	display: inherit;
 }
 
 p.description-footer {
-    text-align: justify;
-    font-style: italic;
-    font-size: .8em;
-    line-height: 1.5em;
-    margin-top: 25px;
-    padding-bottom: 25px;
-    color: #3db3f4;
+	text-align: justify;
+	font-style: italic;
+	font-size: .8em;
+	line-height: 1.5em;
+	margin-top: 25px;
+	padding-bottom: 25px;
+	color: #3db3f4;
 }
 
 
 /*----------------------- offer section ------------------------*/
 .container .row {
-    width: 80%;
-    margin: 0 auto;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .offer-table h1 {
-    font-family: 'Gotham-medium', sans-serif;
-    font-size: 2em;
-    text-align: center;
-    color: #359ee1;
-    padding-bottom: 25px;
+	font-family: 'Gotham-medium', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: #359ee1;
+	padding-bottom: 25px;
 }
 
 .offer-table {
-    padding: 25px 0;
+	padding: 25px 0;
 }
 
 .single-offer {
-    margin: 10px auto;
-    display: inline;
-    float: left;
-    width: 100%;
-    background-color: #359ee1;
-    transition: 0.5s;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+	margin: 10px auto;
+	display: inline;
+	float: left;
+	width: 100%;
+	background-color: #359ee1;
+	transition: 0.5s;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 
 
 
 .single-offer:hover {
-    box-shadow: 0 2px 20px #9b9a9a;
+	box-shadow: 0 2px 20px #9b9a9a;
 }
 
 .offer-head {
-    color: #fff;
-    display: inline;
-    float: left;
-    text-align: center;
-    width: 100%;
-    padding: 10px 5px;
+	color: #fff;
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+	padding: 10px 5px;
 
 }
 
 .single-offer .offer-head h2 {
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-bottom: 2px solid #fff;
-    font-family: 'myriadPro-regular', sans-serif;
-    font-size: 1.2em;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+	font-family: 'myriadPro-regular', sans-serif;
+	font-size: 1.2em;
 }
 
 
 .fas {
-    font-size: 1.5em;
-    padding-right: 10px;
+	font-size: 1.5em;
+	padding-right: 10px;
 }
 
 .offer-head p {
-    width: 150px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'myriadPro-regular', sans-serif;
-    color: #359ee1;
-    background-color: #fff;
-    padding: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    font-size: 1.5em;
-    position: relative;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'myriadPro-regular', sans-serif;
+	color: #359ee1;
+	background-color: #fff;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 1.5em;
+	position: relative;
 }
 
 .offer-head p sup {
-    font-size: .4em;
-    position: absolute;
-    top: 5px;
-    font-family: 'myriadPro-regular', sans-serif;
+	font-size: .4em;
+	position: absolute;
+	top: 5px;
+	font-family: 'myriadPro-regular', sans-serif;
 }
 
 .offer-content ul li {
-    width: 80%;
-    color: #fff;
-    list-style: none;
-    font-family: 'lato-regular', sans-serif;
-    font-size: .8em;
-    line-height: 3em;
-    border-bottom: .5px solid #bfbbbb;
+	width: 80%;
+	color: #fff;
+	list-style: none;
+	font-family: 'lato-regular', sans-serif;
+	font-size: .8em;
+	line-height: 3em;
+	border-bottom: .5px solid #bfbbbb;
 }
 
 .offer-content ul li:last-child {
-    padding-bottom: 10px;
-    border-bottom: 0;
+	padding-bottom: 10px;
+	border-bottom: 0;
 }
 
 /*------------------------- card button --------------*/
 .button {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .offer-table .row .button h2,
 .our-services .row .button h2 {
-    color: #fff;
-    background-color: #359ee1;
-    padding: 20px 40px;
-    display: inline;
-    margin-top: 60px;
-    font-family: 'Gotham-medium', sans-serif;
-    font-size: 1.5em;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    transition: .2s;
+	color: #fff;
+	background-color: #359ee1;
+	padding: 20px 40px;
+	display: inline;
+	margin-top: 60px;
+	font-family: 'Gotham-medium', sans-serif;
+	font-size: 1.5em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	transition: .2s;
 }
 
 .offer-table .row .button h2:hover,
 .our-services .row .button h2:hover {
-    background-color: #3db3f4;
+	background-color: #3db3f4;
 }
 
 .offer-table .row h2.first-button,
 .our-services .row h2.first-button {
-    float: left;
-    margin-right: 200px;
+	float: left;
+	margin-right: 200px;
 }
 
 .offer-table .row h2.last-button,
 .our-services .row h2.last-button {
-    float: right;
-    margin-right: 0;
+	float: right;
+	margin-right: 0;
 }
 
 /*---- our services section -------------------------------*/
 
 .our-services {
-    background: #343333;
+	background: #343333;
 }
 
 .service-header {
-    background-color: #dbdbdb;
+	background-color: #dbdbdb;
 }
 
 .service-header h1 {
-    padding: 25px 30px;
+	padding: 25px 30px;
 }
 
 .our-services .row {
-    padding-top: 25px;
-    padding-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .our-services img {
-    height: 86px;
-    width: 86px;
+	height: 86px;
+	width: 86px;
 }
 
 .our-services .row .col-md-4 h2 {
-    padding-left: 0;
+	padding-left: 0;
 }
 
 .our-services .row h2 {
-    text-align: left;
-    color: #fff;
-    font-family: 'myriadPro-regular', sans-serif;
+	text-align: left;
+	color: #fff;
+	font-family: 'myriadPro-regular', sans-serif;
 }
 
 .our-services .row p {
-    color: #f2f2f2;
-    font-family: 'lato-regular', sans-serif;
-    font-size: .8em;
-    line-height: 2em;
+	color: #f2f2f2;
+	font-family: 'lato-regular', sans-serif;
+	font-size: .8em;
+	line-height: 2em;
 }
 
 
 /*----------- Creating an LLC section  ------*/
 
 .creating-llc h1 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .creating-llc .row {
-    padding-top: 25px;
-    padding-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .creating-llc .row .right-arrow {
-    font-size: 3em;
-    position: relative;
-    top: 55px;
-    left: 60px;
+	font-size: 3em;
+	position: relative;
+	top: 55px;
+	left: 60px;
 }
 
 
 /*----------------------- footer section ---------------*/
 
 .footer-section {
-    background-color: #359ee1;
-    padding: 35px 0;
+	background-color: #359ee1;
+	padding: 35px 0;
 }
 
 .footer-section .col-md-4 {
-    color: #fff;
-    font-family: 'lato-regular', sans-serif;
-    line-height: 1.5em;
-    font-size: 1em;
+	color: #fff;
+	font-family: 'lato-regular', sans-serif;
+	line-height: 1.5em;
+	font-size: 1em;
 }
 
 .footer-section .col-md-4 h3 {
-    
+	
 font-family: 'Gotham-medium', sans-serif;
-    font-weight: bold;
-    padding-bottom: 10px;
+	font-weight: bold;
+	padding-bottom: 10px;
 }
+
+
+
+
+
+
+/*================= responsive css for medium devices =====================*/
+
+@media screen and (min-width:768px ) and (max-width: 991px) {
+
+
+
+main section.description .container {
+	width: 60%;
+}
+
+
+/*======= offer/card section =========*/
+
+.offer-head p {
+	width: 130px;
+}
+
+.single-offer .offer-head h2 {
+	font-size: 1.1em;
+}
+
+/*======== button section ==========*/
+
+.offer-table .row .button h2, .our-services .row .button h2 {
+	padding: 20px 10px;
+		font-size: 1em;
+}
+
+
+/*---------- Creating an LLC section --------------------*/
+img.clock, img.paper, img.mail {
+	width: 100px;
+}
+
+
+
+
+}
+
+
+
+
