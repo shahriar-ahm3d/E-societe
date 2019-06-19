@@ -169,7 +169,7 @@ body p {
 
 h1 {
 	font-family: 'Gotham-medium', sans-serif;
-	font-size: 2em;
+font-size: 1.5em;
 	text-align: center;
 	color: #359ee1;
 }
@@ -270,7 +270,7 @@ header img.clock {
 /*------------------ main section ---------------------*/
 
 main section.description .container {
-	width: 40%;
+	width: 60%;
 	scroll-behavior: smooth;
 }
 
@@ -420,39 +420,38 @@ p.description-footer {
 
 /*------------------------- card button --------------*/
 .button {
-	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+margin-top: 40px;
+	text-align: center;
+
 }
 
 .offer-table .row .button h2,
 .our-services .row .button h2 {
 	color: #fff;
 	background-color: #359ee1;
-	padding: 20px 40px;
-	display: inline;
-	margin-top: 60px;
+	padding: 10px 10px;
+text-align: center;
+	display: inline-block;
 	font-family: 'Gotham-medium', sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	transition: .2s;
 }
 
+
 .offer-table .row .button h2:hover,
 .our-services .row .button h2:hover {
 	background-color: #3db3f4;
 }
 
-.offer-table .row h2.first-button,
-.our-services .row h2.first-button {
-	float: left;
-	margin-right: 200px;
-}
+.offer-table .row .button h2.last-button,
+.our-services .row .button h2.last-button{
 
-.offer-table .row h2.last-button,
-.our-services .row h2.last-button {
-	float: right;
-	margin-right: 0;
+margin-top: 20px;
 }
 
 /*---- our services section -------------------------------*/
@@ -477,10 +476,12 @@ p.description-footer {
 .our-services img {
 	height: 86px;
 	width: 86px;
+	margin-top: 20px
 }
 
 .our-services .row .col-md-4 h2 {
 	padding-left: 0;
+	margin-top: 10px;
 }
 
 .our-services .row h2 {
@@ -504,10 +505,33 @@ p.description-footer {
 	padding-bottom: 25px;
 }
 
+
+
+
 .creating-llc .row {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+
+.creating-llc img {
+	width: 100px;
+margin: 0 auto;
+display: block;
+}
+
+.creating-llc .right-arrow {
+	transform: rotate(90deg);
+}
+.creating-llc .right-arrow i 
+{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	left: 37px;
+}
+
+
 
 .creating-llc .row .right-arrow {
 	font-size: 3em;
@@ -526,6 +550,7 @@ p.description-footer {
 
 .footer-section .col-md-4 {
 	color: #fff;
+	margin-top: 30px;
 	font-family: 'lato-regular', sans-serif;
 	line-height: 1.5em;
 	font-size: 1em;
@@ -543,45 +568,30 @@ font-family: 'Gotham-medium', sans-serif;
 
 
 
-/*================= responsive css for medium devices =====================*/
-
-@media screen and (min-width:768px ) and (max-width: 991px) {
+/*================= responsive css =====================*/
 
 
+//Extra Small devices (phones, 576px and less)
+@media screen and (min-width: 0px) and (max-width: 575px) { 
+	main section.description .container {
+	width: 40%;
+	scroll-behavior: smooth;
+}
+ }
 
-main section.description .container {
-	width: 60%;
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
 }
 
-
-/*======= offer/card section =========*/
-
-.offer-head p {
-	width: 130px;
-}
-
-.single-offer .offer-head h2 {
-	font-size: 1.1em;
-}
-
-/*======== button section ==========*/
-
-.offer-table .row .button h2, .our-services .row .button h2 {
-	padding: 20px 10px;
-		font-size: 1em;
-}
-
-
-/*---------- Creating an LLC section --------------------*/
-img.clock, img.paper, img.mail {
-	width: 100px;
-}
-
-
-
-
-}
-
-
-
-
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+ }
