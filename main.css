@@ -169,9 +169,9 @@ body p {
 
 h1 {
 	font-family: 'Gotham-medium', sans-serif;
-font-size: 1.5em;
 	text-align: center;
 	color: #359ee1;
+	font-size: 1.5em;
 }
 
 h2 {
@@ -205,6 +205,12 @@ a.mobile {
 	border-radius: 5px;
 }
 
+
+.header .mobile span{
+	height: 30px;
+	line-height: 30px;
+}
+
 a.mobile:hover {
 	text-decoration: none;
 	background-color: #3DB3F4;
@@ -217,9 +223,9 @@ a.mobile i {
 header h1 {
 	font-family: 'Gotham-medium', sans-serif;
 	color: #359EE1;
-	font-size: 2em;
 	text-align: center;
 	margin-top: 120px;
+	font-size: 2.5em;
 }
 
 header h2 {
@@ -227,7 +233,7 @@ header h2 {
 	text-align: center;
 	margin-top: 20px;
 	font-family: myriadPro-regular;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 
@@ -280,7 +286,7 @@ main section.description .container {
 
 h1.description-header {
 	font-family: 'Gotham-medium', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #359ee1;
 	padding-top: 30px;
 }
@@ -328,7 +334,7 @@ p.description-footer {
 
 .offer-table h1 {
 	font-family: 'Gotham-medium', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: center;
 	color: #359ee1;
 	padding-bottom: 25px;
@@ -381,7 +387,7 @@ p.description-footer {
 }
 
 .offer-head p {
-	width: 150px;
+	width: 80%;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -419,23 +425,21 @@ p.description-footer {
 }
 
 /*------------------------- card button --------------*/
-.button {
-	height: 100%;
-	width: 100%;
-margin-top: 40px;
-	text-align: center;
 
+.offer-table .container .button, .our-services .container .button {
+	margin:0 auto 0px auto;
+	width: 60%;
 }
 
-.offer-table .row .button h2,
-.our-services .row .button h2 {
+.offer-table .container .button h2,.our-services .container .button h2 {
 	color: #fff;
 	background-color: #359ee1;
 	padding: 10px 10px;
-text-align: center;
-	display: inline-block;
+	display: block;
+	text-align: center;
+	margin-top: 25px;
 	font-family: 'Gotham-medium', sans-serif;
-	font-size: 1em;
+	font-size: 1.2em;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -443,16 +447,15 @@ text-align: center;
 }
 
 
-.offer-table .row .button h2:hover,
-.our-services .row .button h2:hover {
+.offer-table .container .button h2:hover,.our-services .container .button h2:hover {
 	background-color: #3db3f4;
 }
 
-.offer-table .row .button h2.last-button,
-.our-services .row .button h2.last-button{
 
-margin-top: 20px;
+.offer-table .container .button a:hover,.our-services .container .button a:hover {
+	text-decoration: none;
 }
+
 
 /*---- our services section -------------------------------*/
 
@@ -476,12 +479,11 @@ margin-top: 20px;
 .our-services img {
 	height: 86px;
 	width: 86px;
-	margin-top: 20px
+	margin-top: 25px;
 }
 
 .our-services .row .col-md-4 h2 {
 	padding-left: 0;
-	margin-top: 10px;
 }
 
 .our-services .row h2 {
@@ -500,13 +502,13 @@ margin-top: 20px;
 
 /*----------- Creating an LLC section  ------*/
 
+
+
+
 .creating-llc h1 {
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
-
-
-
 
 .creating-llc .row {
 	padding-top: 25px;
@@ -514,46 +516,36 @@ margin-top: 20px;
 }
 
 .creating-llc img {
-	width: 100px;
-margin: 0 auto;
-display: block;
+	margin: 30px auto;
+	display: block;
+	width: 150px;
 }
 
-.creating-llc .right-arrow {
-	transform: rotate(90deg);
-}
-.creating-llc .right-arrow i 
-{
-	font-size: 30px;
+.creating-llc .container p {
+	display: block;
+	font-size: 1.2em;
+	font-family: 'lato-regular', sans-serif;
 	text-align: center;
-	position: relative;
-	top: 50px;
-	left: 37px;
+	color: #359ee1;
+
 }
 
 
-
-.creating-llc .row .right-arrow {
-	font-size: 3em;
-	position: relative;
-	top: 55px;
-	left: 60px;
-}
 
 
 /*----------------------- footer section ---------------*/
 
-.footer-section {
+footer.footer-section {
 	background-color: #359ee1;
 	padding: 35px 0;
 }
 
 .footer-section .col-md-4 {
 	color: #fff;
-	margin-top: 30px;
 	font-family: 'lato-regular', sans-serif;
 	line-height: 1.5em;
 	font-size: 1em;
+	margin-top: 30px;
 }
 
 .footer-section .col-md-4 h3 {
@@ -567,31 +559,3 @@ font-family: 'Gotham-medium', sans-serif;
 
 
 
-
-/*================= responsive css =====================*/
-
-
-//Extra Small devices (phones, 576px and less)
-@media screen and (min-width: 0px) and (max-width: 575px) { 
-	main section.description .container {
-	width: 40%;
-	scroll-behavior: smooth;
-}
- }
-
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
- }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
- }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
- }
